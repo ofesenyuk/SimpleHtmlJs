@@ -40,6 +40,8 @@ div.a {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 /* Links inside the navbar */
@@ -48,8 +50,6 @@ div.a {
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background: #666666;
-    text-decoration: none;
-    font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -70,8 +70,6 @@ div.a {
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background: #666666;
-    text-decoration: none;
-    font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -86,12 +84,42 @@ div.a {
     width: 350px;
 }
 
+@media (max-width: 960px) {
+    .right {
+        width: 200px; 
+    }
+    .navbar {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .right {
+        width: 200px; 
+    }
+    .navbar {
+        position: relative;
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .right {
+        position: relative;
+    }
+    .navbar {
+        font-size: 6vw;
+    }
+}
+
 #language-setter {
     float: right;
     width: 50px;
     border: 3px solid #73AD21;
     border-radius: 25px;
-    z-index: 1;
+    position: relative;
+    right: 0px;
+    z-index: 2;
 }
 
 #address p {

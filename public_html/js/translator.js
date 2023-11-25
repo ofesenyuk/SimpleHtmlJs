@@ -49,7 +49,7 @@ const TRANSLATIONS = {
         'worship-services-youth': 'Nabożeństwo dla młodzieży: sobota 18:00',
         'events-title': 'Poznań. Kościół Baptystów: Życie Kościoła',
         'events-h1': 'Życie Kościoła',
-        'events-christmas': 'Przygotowanie prezentów na Narodzenie Jezusa Chrystusa. 18 grudnia 2022 r',
+        'events-christmas': 'Przygotowanie prezentów na Narodzenie Jezusa Chrystusa. \r\n18 grudnia 2022 r',
         'preaches-title': 'Poznań. Kościół Baptystów: Kazania',
         'preaches-h1': 'Tu powinny być kazania',
         'contacts-title': 'Poznań. Kościół Baptystów: Kontakty',
