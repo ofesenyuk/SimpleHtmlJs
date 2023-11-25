@@ -1,0 +1,142 @@
+body {
+    background-color: lightblue;
+    background-image: url("../img/MainBackground.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.a {
+    text-align: center;
+}
+
+
+/* The navigation bar */
+.navbar {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: #333;*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    padding: 10px 10px 10px 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #666666;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Links inside the navbar */
+.navbar div {
+    padding: 10px 10px 10px 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #666666;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 350px;
+}
+
+#language-setter {
+    float: right;
+    width: 50px;
+    border: 3px solid #73AD21;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+#address p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: #000066;
+    text-shadow: 1px 1px #000066;
+}
+
+.word {
+    text-align: center;
+    /*border: 3px solid green;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.last-event {
+    /*background-image: url("../img/last_event.jpg");*/
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-event img {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.last-event h2 {
+    text-align: center;
+
+}
+
+#about img {
+    position: absolute;
+    right: 0px;
+    width: 60%;
+    padding-right: 40px;
+}
+
+
