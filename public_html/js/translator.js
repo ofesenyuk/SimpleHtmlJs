@@ -55,7 +55,7 @@ const TRANSLATIONS = {
         'contacts-title': 'Poznań. Kościół Baptystów: Kontakty',
         'contacts-h1': 'Kontakty',
         'contacts-responsible1': 'Diakon: Jurij',
-        'contacts-responsible2': 'Gill'
+        'contacts-responsible2': 'Ilia'
     },
     UA: {
         John316: 'Бо так Бог полюбив світ, що віддав Сина Свого Єдинородного, щоб кожен, хто вірує Нього, не загинув, а мав життя вічне. (Іванна 3:16)',
